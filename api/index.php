@@ -1,3 +1,15 @@
+<?php
+     if (isset($_GET['unit'])) {
+        $unit = $_GET['unit'];
+        if ($unit === 'gram') {
+            header("Location:gram.php");
+            exit;
+        } else if ($unit === 'pae') {
+            header("Location:pae.php");
+            exit;
+        }
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,17 +66,6 @@ h1 {
         </form>
     </div>
 
-<?php
-     if (isset($_GET['unit'])) {
-        $unit = $_GET['unit'];
-        if ($unit === 'gram') {
-            header("Location: gram.php");
-            exit;
-        } else if ($unit === 'pae') {
-            header("Location: pae.php");
-            exit;
-        }
-    }
-?>
+
 </body>
 </html>
