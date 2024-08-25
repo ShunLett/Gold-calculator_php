@@ -129,12 +129,15 @@ span {
         $sale_price = $_POST["sale_price"];
         $current_price = $_POST["current_price"];
 
+        $pae_to_gram = $pae * 1.0205;
         $pae_to_kyat_tharr = $pae / 16; 
         $gold_price = $pae_to_kyat_tharr * $current_price;
         $hand_price = $sale_price - $gold_price;
-
+        
+        $pae_to_gram = number_format($pae_to_gram,2)
         $gold_price = number_format($gold_price, 0);
         $hand_price = number_format($hand_price, 0);
+
     }
 ?>  
 <a href="index.php" class="back-button">Back</a>
@@ -163,6 +166,7 @@ span {
     </form>
     <div class="result-container">
         <h2>Results</h2>
+        <p>‌‌ရွှေအလေးချိန် = <?php echo $pae_to_gram; ?>ဂရမ်</p>
         <p>ရွှေတန်ဖိုး = <?php echo $gold_price; ?> ကျပ်</p>
         <p>လက်ခ = <?php echo $hand_price; ?> ကျပ်</p>
     </div>
