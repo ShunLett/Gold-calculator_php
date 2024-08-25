@@ -167,7 +167,7 @@ span {
     </form>
     <div class="result-container">
         <h2>Results</h2>
-        <p>‌‌ရွှေအလေးချိန် = <?php echo $pae_to_gram; ?>ဂရမ်</p>
+        <p>‌‌ရွှေအလေးချိန် = <?php echo $pae_to_gram; ?> ဂရမ်</p>
         <p>ရွှေတန်ဖိုး = <?php echo $gold_price; ?> ကျပ်</p>
         <p>လက်ခ = <?php echo $hand_price; ?> ကျပ်</p>
     </div>
