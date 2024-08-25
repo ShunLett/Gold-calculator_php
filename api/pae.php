@@ -135,7 +135,7 @@ span {
         $gold_price = $pae_to_kyat_tharr * $current_price;
         $hand_price = $sale_price - $gold_price;
         
-        $pae_to_gram = number_format($pae_to_gram,2)
+        $pae_to_gram = number_format($pae_to_gram,2);
         $gold_price = number_format($gold_price, 0);
         $hand_price = number_format($hand_price, 0);
 
