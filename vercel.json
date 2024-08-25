@@ -5,8 +5,8 @@
       }
   },
   "routes": [
-      { "src": "/gram", "dest": "/api/gram.php" },
-      { "src": "/pae", "dest": "/api/pae.php" },
+      { "src": "/gram.php", "dest": "/api/gram.php" },
+      { "src": "/pae.php", "dest": "/api/pae.php" },
       { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
