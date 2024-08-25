@@ -2,10 +2,10 @@
      if (isset($_GET['unit'])) {
         $unit = $_GET['unit'];
         if ($unit === 'gram') {
-            header("Location:gram.php");
+            header("Location: /gram");
             exit;
         } else if ($unit === 'pae') {
-            header("Location:pae.php");
+            header("Location: /pae");
             exit;
         }
     }
