@@ -123,6 +123,7 @@ span {
     $current_price = null;
     $gold_price = 0;
     $hand_price = 0;
+    $pae_to_gram =0;
 
     if (isset($_POST["pae"]) && isset($_POST["sale_price"]) && isset($_POST["current_price"])) {
         $pae = $_POST["pae"];
