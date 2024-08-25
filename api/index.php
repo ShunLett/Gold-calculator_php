@@ -60,6 +60,8 @@ h1 {
     <div class="home-container">
         <h1>Gold Calculator</h1>
         <p>Please choose the unit of measurement:</p>
+        <br>
+        <br>
         <form method="get" action="">
             <a class="button" href="./gram.php">Gram</a>
             <a class="button" href="./pae.php">Pae</a>
